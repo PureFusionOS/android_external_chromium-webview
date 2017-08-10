@@ -28,9 +28,8 @@ in your GN argument file before building.
 
 ------
 
-Due to WebView API changes in the N release, the Java code in the Chromium 2743_91
-branch is not compatible with N. We'll be working on upstreaming the N-specific
-Java changes to Chromium once the final N SDK is released.
+Extra patches:
+patches/chromium-theme-color.patch: Provides a callback when a theme color is set by the page
 
 ------
 
